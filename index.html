@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stream</title> 
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
 <body>
-    
+    <link rel="stylesheet" href="style.css">
+    <div class="grid-container">
+<!-- Header -->
+    <header class="header">
+    <div class="menu-icon" onclick="openSidebar{}">
+        <span class="material-icons-outlined">menu</span>
+    </div>
+    <div class="head-left"> 
+        <span class="material-icons-outlined"> search</span>
+    </div>
+    <div class="head-right">
+        <span class="material-icons-outlined">notifications</span>
+        <span class="material-icons-outlined">email </span>
+        <span class="material-icons-outlined">account_circle</span>
+    </div>
+</header>
+<!-- Sidebar -->
+    <aside id="sidebar">
+    <div class="sidebar-title">
+        <div class="sidebar-brand">
+            <span class="material-icons-outlined">shopping_cart </span> STORE
+        </div>
+        <span class="material-icons-outlined" onclick="closeSidebar{}"> close </span>
+    </div>
+    </aside> 
+    <main class="main-container"></main>
+    <link rel="stylesheet" href="script.js">
+</div>
 </body>
 </html>

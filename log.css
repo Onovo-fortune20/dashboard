@@ -1,0 +1,96 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/ggggg.jpg');
+    background-size: contain;
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login {
+    background-color: darkslateblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .login-btn {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .login-btn:hover {
+    background-color: gray;
+  }
+  
+  .adbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .proposal {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+  }
+  
+  .proposal h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .proposal p {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 20px;
+  }
+  
+  .register-btn {
+    background-color: #ff8800;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .register-btn:hover {
+    background-color: #e67600;
+  }
+  

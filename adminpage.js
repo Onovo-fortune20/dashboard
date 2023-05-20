@@ -21,3 +21,7 @@ saveButton.addEventListener('click', function () {
     confirmButtonText: 'OK'
   });
 });
+
+function red() {
+  window.location.href ="index.html";
+}

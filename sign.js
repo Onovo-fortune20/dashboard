@@ -10,7 +10,10 @@ signinBtn.onclick= function(){
     signupBtn.classList.add("disable")
     signinBtn.classList.remove("disable")
 }
-
+function redirect() {
+    window.location.href = "index.html";
+  }
+  
 signupBtn.onclick= function(){
     nameField.style.maxHeight = "60px"
     title.innerHTML = "Sign Up";

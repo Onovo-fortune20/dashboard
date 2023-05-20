@@ -1,43 +1,43 @@
 .body{
-    background-color: black;
+  background-color: white;
 }
 
 .container {
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 200px;
-    text-align: center;
-    background-color: black;
-    font-family: "Montserrat", sans-serif;
-    
-  background-color: gray;
-  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 200px;
+  text-align: center;
+  background-color: #1d2634;
+  font-family: "Montserrat", sans-serif;
+  
+background-color: lightblue;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ #subbtn {
+  width: 90%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    margin-bottom: 30px;
-    color: azure;
-  }
-  
-  input[type="text"],
-  input[type="password"] {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-   #subbtn {
-    width: 90%;
-    padding: 10px;
-    background-color: lightgrey;
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #45a049;
-    cursor: pointer;
-  }
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}

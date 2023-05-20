@@ -680,14 +680,16 @@ body {
 }
   .charts-card {
     background-color: #263043;
+    color: #4CAF50;
     margin-bottom: 20px;
     padding: 25px;
     box-sizing: border-box;
     -webkit-column-break-inside: avoid;
     border-radius: 5px;
     box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
-    background-image: url('images/crow.jpg');
+    background-image: url('images/advv.avif');
     background-size: cover;
+    background-position: center;
   }
   
   .chart-title {

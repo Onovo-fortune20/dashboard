@@ -16,25 +16,27 @@ body{
     background-position: center;
     background-size: cover ;
     position: relative;
+    font-family: 'Poppins', 'sans-serif';
     
 }
 .form-box{
-    background-color: darkslateblue;
+    background-color: lightblue;
     width: 90%;
     max-width: 450px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: darkslateblue;
+    background: lightblue;
     padding: 50px 60px 70px;
     text-align: center;
+    font-family: 'Poppins', 'sans-serif';
 
 }
 .form-box h1{
     font-size: 30px;
     margin-bottom: 60px;
-    color: white;
+    color: black;
     position: relative;
 }
 .form-box h1::after{
@@ -80,7 +82,7 @@ form p{
 
 form p a{
     text-decoration: none;
-    color: #3c00a0;
+    color: #4CAF50;
 }
 
 .btn-field{
@@ -91,7 +93,7 @@ form p a{
 
 .btn-field button{
     flex-basis: 48%;
-    background: gray;
+    background: #4CAF50;
     color: #fff;
     height: 40px;
     border-radius: 20px;
@@ -103,7 +105,7 @@ form p a{
 #logins-btn{
     width: 50%;
     flex-basis: 48%;
-    background:grey;
+    background:#4CAF50;
     color: #fff;
     height: 40px;
     border-radius: 20px;

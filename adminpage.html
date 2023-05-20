@@ -2,40 +2,148 @@
 <html>
 <head>
   <title>Admin Page</title>
-  <link rel="stylesheet" href="admin.css">
+
 </head>
-<body>
-  <h1>Admin Page</h1>
-  
-  <h2>User Interactions</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>User ID</th>
-        <th>Action</th>
-        <th>Timestamp</th>
-      </tr>
+
+        <title>Admin Page</title>
+      </head>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <link rel="stylesheet" href="admininteractionpage.css">
+
+      <body>
+       
+        
+        <h2>Welcome Bill.</h2><h3>Here are the latest interactions</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>User ID</th>
+              <th>Username</th>
+              <th>Password</th>
+              <th>Registration date</th>
+              <th>Activity</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1245</td>
+              <td>onovojr@gmail.com.com</td>
+              <td>
+                <input type="password" value="password1" disabled>
+              </td>
+              <td>2023-05-19 03:45 PM</td>
+              <td>
+              <button class="online">Online</button>
+              </td>
+              
+              <td>
+                <button class="button edit-button" onclick="resetPasswordButton">Reset Password</button>
+                <button class="button save-button" onclick="saveButton">Save</button>
+                <button class="button block-button">Block User</button>
+              </td>
+            
+            </tr>
+            <tr>
+              <td>1267</td>
+              <td>fortuneniit@gmail.com</td>
+              <td>
+                <input type="password" value="passwordInput2"  disabled>
+              </td>
+              <td>2023-05-18 08:15 AM</td>
+              <td>
+                <button class="offline">Offline</button>
+                </td>
+              <td>
+                <button class="button edit-button" onclick="resetPasswordButton">Reset Password</button>
+                <button class="button save-button" onclick="saveButton">Save</button>
+                <button class="button block-button">Block User</button>
+              </td>
+            
+            </tr>
+            <tr>
+              <td>1290</td>
+              <td>ifylon@gmail.com</td>
+              <td>
+                <input type="password" value="password1" disabled>
+              </td>
+              <td>2023-05-20 10:30 AM</td>
+              <td>
+                <button class="offline">Offline</button>
+                </td>
+              <td>
+                <button class="button edit-button" onclick="resetPasswordButton">Reset Password</button>
+                <button class="button save-button" onclick="saveButton">Save</button>
+                <button class="button block-button">Block User</button>
+              </td>
+             
+            </tr>
+            <tr>
+              <td>1289</td>
+              <td>danvixent@gmail.com</td> 
+              <td>
+                <input type="password" value="password1" disabled>
+              </td>
+              <td>2023-05-20 10:31 AM</td>
+              <td>
+                <button class="online">Online</button>
+                </td>
+              <td>
+                <button class="button edit-button" onclick="resetPasswordButton">Reset Password</button>
+                <button class="button save-button" onclick="saveButton">Save</button>
+                <button class="button block-button" onclick="saveButton">Block User</button>
+              </td>
+              
+            </tr>
+            <tr>
+              <td>1309</td>
+              <td>elpee@gmail.com</td>
+              <td>
+                <input type="password" value="password1" disabled>
+              </td>
+              <td>2023-05-20 10:30 AM</td>
+              <td>
+                <button class="offline">Offline</button>
+                </td>
+              <td>
+                <button class="button edit-button" onclick="resetPasswordButton">Reset Password</button>
+                <button class="button save-button" onclick="saveButton">Save</button>
+                <button class="button block-button" onclick="saveButton">Block User</button>
+              </td>
+            </tr>
+            <tr>
+              <td>1298</td>
+              <td>echeonov@gmail.com</td>
+              <td>
+                <input type="password" value="password1" disabled>
+              </td>
+              <td>2023-05-20 10:30 AM</td>
+              <td>
+                <button class="online">Online</button>
+                </td>
+              <td>
+                <button class="button edit-button" onclick="resetPasswordButton">Reset Password</button>
+                <button class="button save-button" onclick="saveButton">Save</button>
+                <button class="button block-button" onclick="saveButton">Block User</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+ 
+      
+        
+      </body>
+      </html>
     </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Login</td>
-        <td>2023-05-20 10:30 AM</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Password Reset</td>
-        <td>2023-05-19 03:45 PM</td>
-      </tr>
-      <!-- Add more rows dynamically using JavaScript -->
-    </tbody>
+    
   </table>
   
-  <h2>Reset Password</h2>
+  <h2>Clock Out</h2>
   <form id="reset-form">
-    <label for="user-id">User ID:</label>
+    <label for="user-id">Admin ID:</label>
     <input type="text" id="user-id" name="user-id" required>
-    <button type="submit" class="button reset-button">Reset Password</button>
+    <button type="submit" class="button reset-button">Clock Out</button>
   </form>
   
   <script>
@@ -52,5 +160,6 @@
       document.getElementById("reset-form").reset();
     });
   </script>
+  <script src="adminpage.js"></script>
 </body>
 </html>
